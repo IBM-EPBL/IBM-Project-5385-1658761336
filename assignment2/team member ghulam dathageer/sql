@@ -1,0 +1,9 @@
+insert into user values('rakesh@gmail.com','raki',37,'12334');
+insert into user values('sathaiah@gmail.com','sathaiah',58,'23345');
+insert into user values('ghulam@gmail.com','ghulam',55,'13345');
+insert into user values('vishal@gmail.com','vishal',62,'53345');
+
+update user set email='aakash1@gmail.com' where rollnumber=58;
+insert into user values('joseph@gmail.com','josh',59,'22334');
+
+delete from user where username='josh'
